@@ -34,6 +34,8 @@ h1,h2,footer .split3 p{
 }
 
 h2{
+    height:100%;
+    width:100%;
     text-align: center;
 }
 
@@ -133,11 +135,14 @@ header .right img{
     background-repeat: no-repeat;
     filter:drop-shadow(16px 16px 20px red) invert(100%);
 }
-
-#partie2 .split5 ul{
-    list-style: none;
-    padding-top:26%;
-    padding-left:2%;
+#partie2 .split5 .txtsplit5{
+    margin-top:27.5%;
+    width:79%;
+    height:50%;
+}
+#partie2 .split5 p{
+    padding-top:3%;
+    padding-left:3%;
     color:white;
 }
 
@@ -277,20 +282,11 @@ footer .split3 p{
     
     header .txt h1{
         font-size: 100px;
-        margin-bottom:0;
-        color:black;
-        text-decoration: underline;
     }
     
     header .txt p{
         font-size: 80px;
         margin-top:0;
-    }
-
-    
-    header .right img{
-        border-radius:100%;
-        width: 80%;
     }
 
     header .right p{
@@ -305,7 +301,6 @@ footer .split3 p{
     
     .split4{
         height:25%;
-        float:left;
         width:100%;
         font-size: 30px;
     }
@@ -350,6 +345,39 @@ footer .split3 p{
     #partie1 .split4 #qualites h1{
         padding-top: 2%;
         padding-bottom: 2%;  
+    }
+
+
+
+
+    #partie2{
+        height:1500px;
+    }
+    
+    .split5{
+        width:100%;
+        float:left;
+        height:50%;
+        background-image: url(images/imagefleche2.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        filter:drop-shadow(16px 16px 20px red) invert(100%);
+    }
+    
+    #partie2 .split5 .txtsplit5{
+        margin-top:-3%;
+        margin-left:36.5%;
+        width:27.5%;
+        height:80%;
+    }
+    #partie2 .split5 p{
+        padding-top:10%;
+        padding-left:3%;
+        padding-right:3%;
+        font-size:40px;
+        text-align:center;
+        color:white;
     }
 }
 
